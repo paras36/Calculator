@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    width: 25rem;
+    height: 40rem;
+    background-color: black;
+    border: black 10px solid;
+}
+
+.display{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    height: 10rem;
+    background-color: grey;
+    border: white 5px solid;
+    box-sizing: border-box;
+    font-size: 5rem;
+
+}
+.keypad{
+    height: 30rem;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    
+    
+}
+.buttons{
+    width: 6.01rem;
+    height:  6.01rem;
+    
+    flex-grow: 1
+    
+
+}
+#grow{
+    flex-grow: 26;
+}
+
