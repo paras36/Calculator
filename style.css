@@ -7,38 +7,55 @@ body{
 .main{
     width: 25rem;
     height: 40rem;
-    background-color: black;
-    border: black 10px solid;
+    background-color: #272727;
+    border: #272727 10px solid;
+    border-radius: 3rem;
 }
 
 .display{
+    font-family: 'Orbitron', sans-serif;
     display: flex;
     justify-content: end;
     align-items: end;
     height: 10rem;
-    background-color: grey;
-    border: white 5px solid;
+    background-color: black;
+    border: grey 5px solid;
     box-sizing: border-box;
     font-size: 5rem;
-
+    color:white;
+    border-radius: 2rem;
 }
 .keypad{
     height: 30rem;
     display: flex;
     flex-wrap: wrap;
+    
     box-sizing: border-box;
     
+  
     
 }
-.buttons{
+.buttons,.buttons_operator,.buttons_operate,.buttons_clear{
+    color: white;
     width: 6.01rem;
     height:  6.01rem;
-    
+    font-size: 2rem;
+    box-sizing: border-box;
+    border: grey solid ;
+    font-family: 'Orbitron', sans-serif;
+    border-radius: 3rem;
+    background-color: #272727;
     flex-grow: 1
     
+    
 
+}
+.yellow,.buttons_operate{
+    background-color: 	#FFA500;
 }
 #grow{
     flex-grow: 26;
 }
-
+.opera_used{
+    background-color: green;
+}

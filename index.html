@@ -3,36 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="main">
-    <div class="display">
-
-    </div>
+    <div class="display"></div>
 
     <div class="keypad">
-        <button class="buttons" >AC</button>
-        <button class="buttons">+/-</button>
-        <button class="buttons">%</button>
-        <button class="buttons operator">/</button>
+        <button class="buttons_clear" onclick="all_clear()" >AC</button>
+        <button class="buttons_operator">+/-</button>
+        <button class="buttons_operator">%</button>
+        <button class="buttons_operator yellow" value="divide">/</button>
         <button class="buttons">1</button>
         <button class="buttons">2</button>
         <button class="buttons">3</button>
-        <button class="buttons operator">X</button>
+        <button class="buttons_operator yellow" value="multiply">X</button>
         <button class="buttons">4</button>
         <button class="buttons">5</button>
         <button class="buttons">6</button>
-        <button class="buttons operator">-</button>
+        <button class="buttons_operator yellow" value="subtract">-</button>
         <button class="buttons">7</button>
         <button class="buttons">8</button>
         <button class="buttons">9</button>
-        <button class="buttons operator">+</button>
+        <button class="buttons_operator yellow" value="add">+</button>
         <button class="buttons" id="grow">0</button>
         <button class="buttons">.</button>
 
-        <button class="buttons" >=</button>
+        <button class="buttons_operate" onclick="calculate()" >=</button>
         
        
     </div>
