@@ -6,7 +6,7 @@ body{
 
 .main{
     width: 25rem;
-    height: 41rem;
+    height: 42rem;
     background-color: #272727;
     border: #272727 10px solid;
     border-radius: 3rem;
@@ -24,6 +24,7 @@ body{
     font-size: 5rem;
     color:white;
     border-radius: 2rem;
+    margin-bottom: 0.5rem;
 }
 .keypad{
     height: 30rem;
