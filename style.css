@@ -6,7 +6,7 @@ body{
 
 .main{
     width: 25rem;
-    height: 40rem;
+    height: 41rem;
     background-color: #272727;
     border: #272727 10px solid;
     border-radius: 3rem;
@@ -29,7 +29,7 @@ body{
     height: 30rem;
     display: flex;
     flex-wrap: wrap;
-    
+    gap: 4px;
     box-sizing: border-box;
     
   
